@@ -90,10 +90,12 @@ function handleSubmit(event) {
 			// Handle success
 			messageElement.textContent = "Message sent successfully";
 			formElement.appendChild(messageElement);
+			messageElement.classList.add("message_success");
 		})
 		.catch((error) => {
 			// Handle error
 			messageElement.textContent = "Failed to send message";
 			formElement.appendChild(messageElement);
+			messageElement.classList.add("message_failed");
 		});
 }

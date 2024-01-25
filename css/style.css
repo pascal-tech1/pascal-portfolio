@@ -81,6 +81,12 @@ textarea {
 	font-size: 14px;
 
 }
+.message_success{
+	color: rgb(67, 67, 213);
+}
+.message_failed{
+	color: rgb(216, 112, 112);
+}
 .heading-primary {
 	font-size: 6rem;
 	text-transform: uppercase;
